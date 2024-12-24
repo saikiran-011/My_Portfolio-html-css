@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="mediaqueries.css" />
+    </head> 
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Sai kiran Budumuru</div>
+            <div>
+                <ul class="nav-links">
+                      <li><a href="./about.html">About</a></li>
+                      <li><a href="./skills.html">Skills</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sai kiran Budumuru</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="show_drop()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- <div class="dropdown">
+                <button onclick="myFunction2()" class="dropbtn">Dropdown</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div> 
+            </div> -->
+            <div class="menu-links">
+                <li><a href="./about.html" onclick="toggleMenu()">About</a></li>
+                <li><a href="./skills.html"onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects"onclick="toggleMenu()">Projects</a></li>
+                <li><a href="./contact.html"onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id ="profile">
+        <div class="section_pic-container">
+            <img src="./myassets/Circle profile pic 2.png"alt ="Sai kiran Budumuru profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Sai kiran Budumuru</h1>
+            <p class="section__text__p2">Aspiring Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color" type="my Resume" ><a href="./myassets/MCA_Resume-1-1.pdf_compressed.pdf">My Resume</a></button>
+            </div>
+            <div id="socials-container">
+                <a href='https://www.linkedin.com/in/sai-kiran-budumuru-6b0a69249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><img src="./myassets/linkedin.png" ></a>
+                <a href="https://github.com/saikiran-011"><img src="./myassets/github.png"></a>
+            </div>
+        </div>
+    </section>
+
+
+        <script src="script.js"></script>
+</body>
+</html>
