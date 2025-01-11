@@ -167,6 +167,7 @@ section{
     justify-content: center;
     gap: 5rem;
     height: 80vh;
+    position:unset;
 }
 
 .section_pic-container{
@@ -269,6 +270,7 @@ section{
 .about-pic{
     border-radius: 2rem;
 }
+
 
 .details-container{
     padding: 1.5rem;
